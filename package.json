@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clone:all": "bash ./scripts/clone-all.sh",
-    "install": "npm-run-all --serial install:*",
+    "installAll": "npm-run-all --serial install:*",
     "install:main": "cd main && npm i",
     "install:pipepr-web": "cd pipepr-web && npm i",
     "install:sub-project-1": "cd sub-project-1 && npm i",
