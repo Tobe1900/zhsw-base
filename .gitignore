@@ -4,6 +4,7 @@ node_modules
 
 pipepr-web
 sub-project-1
+common-login
 
 # local env files
 .env.local
