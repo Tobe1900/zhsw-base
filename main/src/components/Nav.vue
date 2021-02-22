@@ -29,7 +29,7 @@
     name: "Nav",
     data() {
       return {
-        user_name: "Admin", // 名称 // 用户信息
+        user_name: "yzh00", // 名称 // 用户信息
         full_screen: false // 是否全屏
       };
     },

@@ -112,23 +112,37 @@ const getMicroApps = () => {
         children: [
           {
             id:'0-1',
-            title:'导入管网数据',
+            title:'数据上传',
             ul: '/mainpage',
-            data: [
-              {
-                children: [
-                  {
-                    id:'0-1',
-                    title:'导入管网数据111',
-                    ul: '/mainpage',
-                  }
-                ]
-              }
-            ]
           },
           {
             id:'0-2',
+            title:'数据管理',
+            ul: '/mainpage'
+          },
+          {
+            id:'0-3',
+            title:'缺陷信息',
+            ul: '/mainpage'
+          },
+          {
+            id:'0-4',
+            title:'管网复核',
+            ul: '/mainpage'
+          },
+          {
+            id:'0-5',
             title:'统计查询',
+            ul: '/mainpage'
+          },
+          {
+            id:'0-6',
+            title:'管网分析',
+            ul: '/mainpage'
+          },
+          {
+            id:'0-7',
+            title:'系统管理',
             ul: '/mainpage'
           }
         ],
