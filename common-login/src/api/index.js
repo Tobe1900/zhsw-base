@@ -1,6 +1,6 @@
-import http from '../utils/axiosRequest'
-import injectRequest from './injectRequest'
+import http from "../utils/axiosRequest";
+import injectRequest from "./injectRequest";
 
-injectRequest(http)
+injectRequest(http);
 
 export default http;

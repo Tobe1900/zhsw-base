@@ -1,13 +1,13 @@
-import Vue from 'vue'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-import locale from 'element-ui/lib/locale/lang/zh-CN' // lang i18n
-import 'nprogress/nprogress.css'
-
-import microAppStart from './core/auth'
-Vue.config.productionTip = false
-
-Vue.use(ElementUI, { locale })
+import Vue from "vue";
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+import locale from "element-ui/lib/locale/lang/zh-CN"; // lang i18n
+import "nprogress/nprogress.css";
+import "./icons"; // icon
+import microAppStart from "./core/auth";
+Vue.config.productionTip = false;
+import "@/styles/index.scss"; // global css
+Vue.use(ElementUI, { locale });
 
 // const instance = new Vue({
 //   store,
@@ -18,7 +18,7 @@ Vue.use(ElementUI, { locale })
 //   store,
 //   render: h => h(App),
 // }).$mount('#app')
-microAppStart()
+microAppStart();
 // const loader = loading => {
 //   if(instance && instance.$children) {
 //     instance.$children[0].isLoading = loading
@@ -55,8 +55,3 @@ microAppStart()
 //
 // setDefaultMountApp('/common-login')
 // start()
-
-
-
-
-
